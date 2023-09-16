@@ -1,6 +1,7 @@
 This Python script provides a simple GUI to annotate images with bounding boxes and text labels and deploy it as a usable .jsonl file for dataset preperation in Vertex AI. It is built using the tkinter and PIL libraries, with additional features from the os, json, and cv2 libraries.
 
 Getting Started
+
 Before you run the script, make sure to install the necessary Python modules. You can do this by running the following command in your terminal:
 pip install pillow opencv-python-headless
 
