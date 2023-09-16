@@ -134,7 +134,7 @@ class LabelingApp:
         x0, y0, x1, y1 = self.start_x, self.start_y, self.end_x, self.end_y
         coords = (min(x0, x1), min(y0, y1), max(x0, x1), max(y0, y1))
         
-        if coords[2] <= coords[0] or coords[3] <= coords[1]:  # Ensure valid coordinates to avoid the error
+        if coords[2] <= coords[0] or coords[3] <= coords[1]:
             messagebox.showwarning("Invalid Coordinates", "Please select a valid area.")
             return
 
