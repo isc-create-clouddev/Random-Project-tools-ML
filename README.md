@@ -1,4 +1,4 @@
-This Python script provides a simple GUI to annotate images with bounding boxes and text labels and deploy it as a usable .jsonl file for dataset preperation in Vertex AI. It is built using the tkinter and PIL libraries, with additional features from the os, json, and cv2 libraries.
+This Python script provides a simple GUI to annotate images with bounding boxes and text labels and deploy it as a usable .jsonl file for dataset deployment in Vertex AI. It is built using the tkinter and PIL libraries, with additional features from the os, json, and cv2 libraries.
 
 Getting Started
 
@@ -36,6 +36,6 @@ Manual Mode: Draw a bounding box by clicking to start, dragging, and pressing "E
 
 6. Apply JSONL Format
 
-Click this button to save the labeling data in JSONL format. You will be prompted to specify the file name and location. Note that script needs to be modified to point to correct bucket URI. Currently the .jsonl file is default and needs to be updated before the script is ran if needed.
+Click this button to save the annotated data in JSONL format. You will be prompted to specify the file name and location. Note that script needs to be modified to point to correct bucket URI. Currently the .jsonl file is default and needs to be updated before the script is ran if needed.
 
 I hope this helps! Let me know if there's anything else you'd like to add or modify. Currently working on a multi label mode where multiple annotations can be added to a single image. Implementing feature that saves the images coordinates in 4 rotations of image to create more complex datasets.
