@@ -1,3 +1,6 @@
+# Below is a look at a completed simple lexer for a computer language I've named AutoScript.
+# By using AutoScript I am creating a program that utilizes special features to enhance programming.
+
 tokens = [
     'VAR', 'FUNCTION', 'IF', 'ELSE', 'RETURN', 'PRINT',
     'EQUALS', 'PLUS', 'MINUS', 'MULTIPLY', 'DIVIDE',
