@@ -16,11 +16,6 @@ To execute the script, navigate to the directory where the script is located in 
 
 python Label.py
 
-I hope this helps! Let me know if there's anything else you'd like to add or modify. Currently working on a multi label mode where multiple annotations can be added.
-
-
-
-
 2. Choose Image Directory
 
 Click this button to select the directory containing the images you want to annotate with bounding boxes and Labels.
@@ -42,3 +37,5 @@ Manual Mode: Draw a bounding box by clicking to start, dragging, and pressing "E
 6. Apply JSONL Format
 
 Click this button to save the labeling data in JSONL format. You will be prompted to specify the file name and location. Note that script needs to be modified to point to correct bucket URI. Currently the .jsonl file is default and needs to be updated before the script is ran if needed.
+
+I hope this helps! Let me know if there's anything else you'd like to add or modify. Currently working on a multi label mode where multiple annotations can be added to a single image. Implementing feature that saves the images coordinates in 4 rotations of image to create more complex datasets.
